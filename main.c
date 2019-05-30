@@ -7,6 +7,9 @@
 #include "bases.h"
 #include <locale.h>
 
+
+// Authors: Andew Costa; Ian Bittencourt; Ian Guelman.
+
 //Funcoes
 void decimalparabinario();
 void binarioparadecimal();
@@ -31,7 +34,7 @@ int main()
         printf("5. Hexadecimal para Decimal\n");
         printf("6. Decimal para Hexadecimal\n");
         printf("7. Sair\n");
-        printf("\nDigite uma opÁ„o: ");
+        printf("\nDigite uma op√ß√£o: ");
         scanf("%d",&op); //
         system("\nCLS\n"); //Comando utilizado para limpar tela
         fflush(stdin);
@@ -83,8 +86,8 @@ int main()
         case 7://Sair do programa
             printf("Saindo...\n");
             return 0;
-        default://Caso n„o seja nenhuma das anteriores...
-            printf("OpÁ„o Inv·lida!\n");
+        default://Caso n√£o seja nenhuma das anteriores...
+            printf("Op√ß√£o Inv√°lida!\n");
             break;
         }
     }
